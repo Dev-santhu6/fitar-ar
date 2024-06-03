@@ -30,7 +30,7 @@ const Shopform = ({ onClose }) => {
 
   const handleSubmit = async () => {
     try {
-      const response = await axios.post(`${process.env.REACT_APP_URL}/api/user/shopregister`, shopDetails);
+      const response = await axios.post('https://project-fitar-backendss.onrender.com/api/user/shopregister', shopDetails);
       console.log(response.data); // Handle success response
       onClose();
     } catch (error) {

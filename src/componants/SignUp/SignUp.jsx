@@ -25,7 +25,7 @@ const SignUp = () => {
             return;
         }
 		try {
-			const url = `${process.env.REACT_APP_URL}/api/user/register`;
+			const url = "https://project-fitar-backendss.onrender.com/api/user/register";
 			const { data } = await axios.post(url, userDetails);
             console.log(data);
 			localStorage.setItem("userinfo", JSON.stringify(userDetails.name));

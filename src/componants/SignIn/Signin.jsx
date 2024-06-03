@@ -19,7 +19,7 @@ const Login = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const url = `${process.env.REACT_APP_URL}/api/user/login`;
+            const url = "https://project-fitar-backendss.onrender.com/api/user/login";
 
             const { data } = await axios.post(url, signInDetails, { credentials: 'include'
         });
