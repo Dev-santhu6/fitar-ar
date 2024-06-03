@@ -1,0 +1,30 @@
+.product .list-view {
+  width: 100%;
+
+  display: grid;
+  grid-gap: 2rem;
+  /* margin-bottom: 50px; */
+  /* margin-top: 5rem; */
+  place-items: center;
+  justify-content: center;
+  /* background: #22364a; */
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+}
+.productlist{
+  background: linear-gradient(45deg, rgb(9, 2, 32) 0%, rgba(52, 36, 63, 0.944) 100%), url("../../../../assets/img/hero-bg.jpg") center center no-repeat;
+height: auto;
+}
+/* .demos{
+  margin-top: 50px;
+} */
+
+.product{
+  margin-top: 100px;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.arbutton{
+  border-radius: 10px;
+  background-color: transparent;
+
+}
